@@ -5,7 +5,7 @@ namespace Sanatorium\Profile\Controllers\Frontend;
 use Platform\Users\Controllers\Frontend\ProfileController as BaseProfileController;
 use Sentinel;
 use View;
-use Sanatorium\Shoppricing\Models\Currency;
+use Sanatorium\Pricing\Models\Currency;
 
 class ProfileController extends BaseProfileController
 {
