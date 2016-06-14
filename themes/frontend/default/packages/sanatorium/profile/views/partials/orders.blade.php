@@ -5,10 +5,10 @@
 		
 		<thead>
 			
-			<th>{{ trans('sanatorium/shoporders::orders/common.attributes.public_id') }}</th>
-			<th>{{ trans('sanatorium/shoporders::orders/common.attributes.created_at') }}</th>
-			<th>{{ trans('sanatorium/shoporders::orders/common.attributes.price') }}</th>
-			<th>{{ trans('sanatorium/shoporders::orders/common.attributes.status') }}</th>
+			<th>{{ trans('sanatorium/orders::orders/common.attributes.public_id') }}</th>
+			<th>{{ trans('sanatorium/orders::orders/common.attributes.created_at') }}</th>
+			<th>{{ trans('sanatorium/orders::orders/common.attributes.price') }}</th>
+			<th>{{ trans('sanatorium/orders::orders/common.attributes.status') }}</th>
 			<th></th>
 
 		</thead>
@@ -21,7 +21,7 @@
 
 					<td class="col-xs-2">
 						
-						<a href="{{ route('sanatorium.shoporders.orders.show', ['id' => $order->id]) }}">
+						<a href="{{ route('sanatorium.orders.orders.show', ['id' => $order->id]) }}">
 							{{ $order->public_id }}
 						</a>
 
@@ -39,14 +39,14 @@
 
 					<td class="col-xs-4 text-right">
 
-						<a href="{{ route('sanatorium.shoporders.orders.track', ['id' => $order->id]) }}">
+						<a href="{{ route('sanatorium.orders.orders.track', ['id' => $order->id]) }}">
 							<i class="fa fa-truck"></i>
-							{{ trans('sanatorium/shoporders::cart.actions.track') }}
+							{{ trans('sanatorium/orders::cart.actions.track') }}
 						</a>
 						
 						&nbsp;
 						
-						<a href="{{ route('sanatorium.shoporders.orders.show', ['id' => $order->id]) }}">
+						<a href="{{ route('sanatorium.orders.orders.show', ['id' => $order->id]) }}">
 							<i class="ion-document"></i>
 							{{ trans('action.show') }}
 						</a>
