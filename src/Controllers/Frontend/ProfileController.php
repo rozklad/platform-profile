@@ -19,7 +19,7 @@ class ProfileController extends BaseProfileController
     {
         $this->addresses = app('Sanatorium\Addresses\Repositories\Address\AddressRepositoryInterface');
 
-        $this->orders = app('Sanatorium\Shoporders\Repositories\Order\OrderRepositoryInterface');
+        $this->orders = app('Sanatorium\Orders\Repositories\Order\OrderRepositoryInterface');
 
         $currency = Currency::getPrimaryCurrency();
 
