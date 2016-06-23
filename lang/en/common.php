@@ -29,4 +29,6 @@ return [
 
 	'already_have_an_account' => 'Already have an account?',
 
+	'your_profile' => 'Your profile',
+
 ];

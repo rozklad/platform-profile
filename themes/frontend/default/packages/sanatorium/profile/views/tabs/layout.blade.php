@@ -1,9 +1,9 @@
-<div class="profile-head hidden text-center">
-	<h1>Your profile</h1>
+<div class="profile-head text-center">
+	<h1>{{ trans('sanatorium/profile::common.your_profile') }}</h1>
 	<h2>{{ $user->first_name }} {{ $user->last_name }}</h2>
 </div>
 
-<div class="tab-panel">
+<div class="tab-panel profile-tab-panel">
 
 	<!-- Nav tabs -->
 	<ul class="nav nav-tabs" role="tablist">

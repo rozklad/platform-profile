@@ -29,4 +29,6 @@ return [
 
 	'already_have_an_account' => 'Už máte účet?',
 
+	'your_profile' => 'Váš profil',
+
 ];
