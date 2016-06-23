@@ -67,7 +67,7 @@ return [
 	|
 	*/
 
-	'version' => '0.1.9',
+	'version' => '0.2.0',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -206,6 +206,15 @@ return [
 
             });
         });
+		
+		// Override common default uris
+		Route::get('/register', function(){
+			return redirect()->to(trans('sanatorium/profile::routes.user.register'));
+		});
+
+		Route::get('/profile', function(){
+			return redirect()->to(trans('sanatorium/profile::routes.user.profile'));
+		});
 	},
 
 	/*
