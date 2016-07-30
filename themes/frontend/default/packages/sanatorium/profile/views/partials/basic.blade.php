@@ -10,7 +10,7 @@
 
 			<div class="panel panel-default">
 
-				<div class="panel-heading">{{{ trans('platform/users::auth/form.profile.legend') }}}</div>
+				<div class="panel-heading">{{ trans('sanatorium/profile::common.tabs.basic') }}</div>
 
 				<div class="panel-body">
 
@@ -91,7 +91,7 @@
 					{{-- Form actions --}}
 					<div class="form-group">
 
-						<button class="btn btn-primary btn-block" type="submit">{{{ trans('platform/users::auth/form.profile.submit') }}}</button>
+						<button class="btn btn-primary btn-block" type="submit">{{{ trans('action.save') }}}</button>
 
 					</div>
 

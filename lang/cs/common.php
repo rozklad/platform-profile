@@ -13,7 +13,7 @@ return [
 
 	'tabs' => [
 
-		'you' => 'Pro Vás',
+		'you' => 'Váš účet',
 		'basic' => 'Základní údaje',
 		'addresses' => 'Adresy',
 		'orders' => 'Objednávky',
@@ -25,7 +25,12 @@ return [
 		'login' => 'Přihlásit',
 		'logout' => 'Odhlásit se',
 		'profile' => 'Profil',
-	], 
+	],
+
+    'headlines' => [
+        'newsletter' => 'Newsletter',
+        'account' => 'Další akce',
+    ],
 
 	'already_have_an_account' => 'Už máte účet?',
 
