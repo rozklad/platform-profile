@@ -36,7 +36,7 @@ class UsersController extends BaseUsersController
 
         	}
 
-            return redirect('register')->with('registration-complete', $user);
+            return redirect()->route('user.register')->with('registration-complete', $user);
         }
 
         $this->alerts->error($messages, 'form');
